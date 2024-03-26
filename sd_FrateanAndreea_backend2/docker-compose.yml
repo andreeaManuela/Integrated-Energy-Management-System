@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  db_device:
+    container_name: mysql-devices
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'energymanagement_devices'
+      MYSQL_ROOT_PASSWORD: 'Andreea2023*'
+    ports:
+      - "3308:3306"
+    volumes:
+      - my-db_device:/var/lib/mysql
+    networks:
+      network_project:
+
+  backend_device:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: backend_device
+    ports:
+      - "8081:8081"
+    environment:
+      - DB_IP=db_device
+      - DB_PORT=3306
+      - DB_DBNAME=energymanagement_devices
+      - DB_USER=root
+      - DB_PASSWORD=Andreea2023*
+    networks:
+      network_project:
+volumes:
+  my-db_device:
+
+networks:
+  network_project:
+    external: true

@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.chatbox-container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+

@@ -1,0 +1,109 @@
+
+.title{
+    width: 100%;
+    height: 5%;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+    font-family: "Lucida Calligraphy";
+    background-color: lightgoldenrodyellow;
+}
+
+.title-device{
+    width: 100%;
+    height: 5%;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+    font-family: "Lucida Calligraphy";
+}
+
+.butoane{
+    display: flex;
+}
+
+.insert {
+    display: flex;
+    margin: 50px 500px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}
+
+.update{
+    display: flex;
+    margin: 50px -450px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}
+
+.delete{
+    display: flex;
+    margin: 50px -260px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}
+
+.insert-device-button {
+    display: flex;
+    margin: 50px 500px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}
+
+.update-device-button{
+    display: flex;
+    margin: 50px -450px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}
+
+.delete-device-button {
+    display: flex;
+    margin: 50px 500px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Calisto MT";
+    font-size: 20px;
+    border: none;
+}

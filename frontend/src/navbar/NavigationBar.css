@@ -1,0 +1,20 @@
+.navbar {
+    background-color: white ;
+}
+.navbar-brand{
+    color: #000;
+}
+
+.my-custom-link {
+    color: darkseagreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 0px 25px;
+    border: 2px solid #333;
+    line-height: 60px;
+}
+
+.with-border {
+    border: 1px solid black;
+}
