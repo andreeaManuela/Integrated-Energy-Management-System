@@ -50,9 +50,13 @@ access tokens to the client application. The tokens will be used to access other
 microservices. 
 
 Implementation technologies
+
 ➢ REST for microservices (Java Spring REST) and JavaScript-based frameworks for client applications (ReactJS).
+
 ➢ RabbitMQ, WebSockets.
+
 ➢ Chat component: web sockets technology
+
 ➢ Authorization component: JWT based authorization - for user’s authentication and
 authorization to all microservices. A authorization service that generates tokens that will be recognized by other
 microservices which share the same secret key as the authorization service
